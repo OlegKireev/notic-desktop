@@ -5,14 +5,15 @@ let window;
 
 function createWindow() {
   window = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1100,
+    height: 750,
     webPreferences: {
-      nodeIntegration: true,
+      nodeIntegration: false,
     },
   });
 
-  window.loadFile('index.html');
+  // window.loadFile('index.html');
+  window.loadURL('http://localhost:1234');
 
   if (is.development) {
     window.webContents.openDevTools();
