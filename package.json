@@ -2,9 +2,9 @@
   "name": "notedly-desktop",
   "version": "0.1.0",
   "description": "An Electron client for a notes managing app",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "electron src/index.js",
+    "start": "electron src/main.js",
     "final": "electron final/index.js",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
