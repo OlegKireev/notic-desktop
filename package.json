@@ -1,7 +1,7 @@
 {
   "name": "notedly-desktop",
   "version": "0.1.0",
-  "description": "An Electron client example for the JavaScript Everywhere book",
+  "description": "An Electron client for a notes managing app",
   "main": "src/index.js",
   "scripts": {
     "start": "electron src/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javascripteverywhere/desktop.git"
+    "url": "git+https://github.com/OlegKireev/notic-desktop.git"
   },
-  "author": "Adam Scott <adam@jseverywhere.io>",
+  "author": "Oleg Kireev <flucky@mail.ru>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/javascripteverywhere/desktop/issues"
+    "url": "https://github.com/OlegKireev/notic-desktop/issues"
   },
-  "homepage": "https://jseverywhere.io",
+  "homepage": "https://notic.netlify.app/",
   "devDependencies": {
     "electron": "6.0.0",
     "electron-builder": "21.2.0",
