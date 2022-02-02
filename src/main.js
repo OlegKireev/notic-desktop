@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+const { is } = require('electron-util');
 
 let window;
 
@@ -12,6 +13,10 @@ function createWindow() {
   });
 
   window.loadFile('index.html');
+
+  if (is.development) {
+    window.webContents.openDevTools();
+  }
 
   window.on('closed', () => {
     window = null;
